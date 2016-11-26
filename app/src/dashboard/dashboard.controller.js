@@ -51,7 +51,7 @@
     vm.openAssignNeed = function openAssignNeed(need) {
       var modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'dashboard/views/assign_need_modal/assign_need_modal.html',
+        templateUrl: 'dashboard/assign-need-modal.html',
         controller: 'AssignNeedModalController',
         controllerAs: 'vm',
         resolve: {
@@ -67,7 +67,7 @@
     vm.openReturnNeed = function openReturnNeed(need) {
       var modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'dashboard/views/return_need_modal/return_need_modal.html',
+        templateUrl: 'dashboard/return-need-modal.html',
         controller: 'ReturnNeedModalController',
         controllerAs: 'vm',
         resolve: {
@@ -83,7 +83,7 @@
     vm.openRecipient = function openRecipient(need) {
       $uibModal.open({
         animation: true,
-        templateUrl: 'dashboard/views/recipient_modal/recipient_modal.html',
+        templateUrl: 'dashboard/recipient-modal.html',
         controller: 'RecipientModalController',
         controllerAs: 'vm',
         resolve: {
@@ -97,7 +97,7 @@
     vm.openAddNeed = function openAddNeed() {
       var modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'dashboard/views/add_need_modal/add_need_modal.html',
+        templateUrl: 'dashboard/add_need_modal.html',
         controller: 'AddNeedModalController',
         controllerAs: 'vm'
       });
@@ -108,7 +108,7 @@
     vm.openCompleted = function openCompleted(event, need) {
       var modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'dashboard/views/completed_modal/completed_modal.html',
+        templateUrl: 'dashboard/completed-modal.html',
         controller: 'CompletedModalController',
         controllerAs: 'vm',
         resolve: {

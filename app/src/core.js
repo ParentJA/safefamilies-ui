@@ -19,7 +19,7 @@
       })
       .state('landing', {
         url: '/',
-        templateUrl: 'global/views/landing/landing.html',
+        templateUrl: 'global/landing.html',
         data: {
           loginRequired: false
         },

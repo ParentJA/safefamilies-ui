@@ -5,7 +5,7 @@
   function DashboardRouterConfig($stateProvider) {
     $stateProvider.state('app.dashboard', {
       url: '/dashboard',
-      templateUrl: 'dashboard/views/dashboard/dashboard.html',
+      templateUrl: 'dashboard/dashboard.html',
       data: {
         loginRequired: true
       },

@@ -7,7 +7,7 @@
     $stateProvider
       .state('log_in', {
         url: '/log_in',
-        templateUrl: 'users/views/log_in/log_in.html',
+        templateUrl: 'users/log-in.html',
         data: {
           loginRequired: false
         },
@@ -16,7 +16,7 @@
       })
       .state('sign_up', {
         url: '/sign_up',
-        templateUrl: 'users/views/sign_up/sign_up.html',
+        templateUrl: 'users/sign-up.html',
         data: {
           loginRequired: false
         },
@@ -36,7 +36,7 @@
       })
       .state('app.profile.detail', {
         url: '/detail',
-        templateUrl: 'users/views/profile_detail/profile_detail.html',
+        templateUrl: 'users/profile-detail.html',
         data: {
           loginRequired: true
         },
@@ -54,7 +54,7 @@
       })
       .state('app.profile.edit', {
         url: '/edit',
-        templateUrl: 'users/views/profile_edit/profile_edit.html',
+        templateUrl: 'users/profile-edit.html',
         data: {
           loginRequired: true
         },
@@ -72,7 +72,7 @@
       })
       .state('app.profile.change_password', {
         url: '/change_password',
-        templateUrl: 'users/views/change_password/change_password.html',
+        templateUrl: 'users/change-password.html',
         data: {
           loginRequired: true
         },
